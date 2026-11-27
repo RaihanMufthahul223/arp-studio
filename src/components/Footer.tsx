@@ -89,7 +89,7 @@ export default function Footer() {
 
           <div className="mt-5 flex gap-3">
             <a
-              href="https://instagram.com/studio_arp"
+              href="https://www.instagram.com/adikarya.pratama?fqnt=MW43MGd2dHFrcXpvMQ=="
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded border border-white/15 flex items-center justify-center hover:border-[#e5a124] hover:text-[#e5a124] transition-colors"
