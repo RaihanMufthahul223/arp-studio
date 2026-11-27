@@ -1,0 +1,223 @@
+[
+  {
+    "id": "1",
+    "slug": "rumah-tinggal-cipacing-sumedang",
+    "title": "Rumah Tinggal 2 Lantai Cipacing",
+    "client": "Keluarga H. Suherman",
+    "location": "Cipacing, Jatinangor",
+    "city": "Sumedang",
+    "year": 2022,
+    "category": "residensial",
+    "phases": ["perencanaan", "desain", "konstruksi"],
+    "coverImage": "/projects/rumah-cipacing/cover.jpg",
+    "images": [
+      { "src": "/projects/rumah-cipacing/render-depan.jpg", "alt": "Render tampak depan", "type": "render" },
+      { "src": "/projects/rumah-cipacing/realisasi-depan.jpg", "alt": "Hasil pembangunan tampak depan", "type": "realisasi" },
+      { "src": "/projects/rumah-cipacing/interior-ruang-tamu.jpg", "alt": "Interior ruang tamu", "type": "realisasi" },
+      { "src": "/projects/rumah-cipacing/detail-tangga.jpg", "alt": "Detail tangga kayu solid", "type": "detail" }
+    ],
+    "beforeAfter": {
+      "before": "/projects/rumah-cipacing/render-depan.jpg",
+      "after": "/projects/rumah-cipacing/realisasi-depan.jpg",
+      "beforeLabel": "Desain 3D",
+      "afterLabel": "Hasil Pembangunan"
+    },
+    "description": "Rumah tinggal dua lantai seluas 180 m² dengan gaya arsitektur modern tropis. Fasad batu alam kombinasi panel kayu composite, ventilasi silang alami, dan taman depan terintegrasi menjadi karakter utama bangunan ini. Pengerjaan selesai dalam 24 minggu sesuai jadwal kontrak.",
+    "scope": [
+      "Penyusunan DED arsitektur, struktur, dan MEE",
+      "Penyusunan RAB detail per item pekerjaan",
+      "Konstruksi struktur beton bertulang K-250",
+      "Pemasangan batu alam andesit dan panel kayu composite",
+      "Kitchen set custom material multiplek HPL finishing",
+      "Lemari tanam kamar tidur utama (blokboard, melamik duco)"
+    ],
+    "area": 180,
+    "duration": 24,
+    "featured": true,
+    "tags": ["modern tropis", "2 lantai", "batu alam", "kitchen set"]
+  },
+  {
+    "id": "2",
+    "slug": "klinik-rawat-inap-garut-kota",
+    "title": "Klinik dan Ruang Rawat Inap",
+    "client": "Klinik Pratama Sehat Sejahtera",
+    "location": "Jl. Ciledug, Garut Kota",
+    "city": "Garut",
+    "year": 2021,
+    "category": "kesehatan",
+    "phases": ["perencanaan", "desain", "konstruksi", "interior"],
+    "coverImage": "/projects/klinik-garut/cover.jpg",
+    "images": [
+      { "src": "/projects/klinik-garut/render-fasad.jpg", "alt": "Render fasad klinik", "type": "render" },
+      { "src": "/projects/klinik-garut/realisasi-fasad.jpg", "alt": "Fasad klinik selesai dibangun", "type": "realisasi" },
+      { "src": "/projects/klinik-garut/ruang-tunggu.jpg", "alt": "Ruang tunggu pasien", "type": "realisasi" },
+      { "src": "/projects/klinik-garut/ruang-rawat.jpg", "alt": "Ruang rawat inap standar", "type": "realisasi" }
+    ],
+    "beforeAfter": {
+      "before": "/projects/klinik-garut/render-fasad.jpg",
+      "after": "/projects/klinik-garut/realisasi-fasad.jpg",
+      "beforeLabel": "Desain 3D",
+      "afterLabel": "Hasil Pembangunan"
+    },
+    "description": "Pembangunan klinik pratama lengkap dengan 6 kamar rawat inap, ruang tindakan, apotek, dan area tunggu. Perencanaan sirkulasi pasien, staf medis, dan zona bersih-kotor dirancang sesuai standar Kemenkes RI. Material interior mudah dibersihkan dan tahan cairan.",
+    "scope": [
+      "DED arsitektur dan struktur sesuai standar fasilitas kesehatan",
+      "Perencanaan MEE (listrik, air bersih, air kotor, gas medis sederhana)",
+      "Konstruksi 3 lantai struktur beton K-300",
+      "Interior ruang rawat dengan dinding keramik anti-bakteri",
+      "Meja nurse station custom HPL duco putih",
+      "Pemasangan plafon PVC di area basah"
+    ],
+    "area": 420,
+    "duration": 36,
+    "featured": true,
+    "tags": ["fasilitas kesehatan", "rawat inap", "K3", "standar Kemenkes"]
+  },
+  {
+    "id": "3",
+    "slug": "kafe-wisata-cipanas-garut",
+    "title": "Kafe dan Ruang Santai Wisata Cipanas",
+    "client": "CV. Alam Sejuk Wisata",
+    "location": "Cipanas, Tarogong Kaler",
+    "city": "Garut",
+    "year": 2022,
+    "category": "wisata",
+    "phases": ["desain", "konstruksi", "interior", "eksterior"],
+    "coverImage": "/projects/kafe-cipanas/cover.jpg",
+    "images": [
+      { "src": "/projects/kafe-cipanas/render-keseluruhan.jpg", "alt": "Render perspektif kafe", "type": "render" },
+      { "src": "/projects/kafe-cipanas/realisasi-eksterior.jpg", "alt": "Eksterior kafe selesai", "type": "realisasi" },
+      { "src": "/projects/kafe-cipanas/interior-area-duduk.jpg", "alt": "Area duduk interior", "type": "realisasi" },
+      { "src": "/projects/kafe-cipanas/detail-counter.jpg", "alt": "Detail counter kasir", "type": "detail" }
+    ],
+    "beforeAfter": {
+      "before": "/projects/kafe-cipanas/render-keseluruhan.jpg",
+      "after": "/projects/kafe-cipanas/realisasi-eksterior.jpg",
+      "beforeLabel": "Desain 3D",
+      "afterLabel": "Hasil Pembangunan"
+    },
+    "description": "Kafe dengan konsep semi-outdoor memanfaatkan kontur lahan berundak di kawasan wisata Cipanas. Struktur kayu glulam atap pelana, dinding batu kali ekspos, dan elemen bambu dipadu dengan pencahayaan hangat menciptakan suasana khas pegunungan Garut yang autentik.",
+    "scope": [
+      "Desain arsitektural dan interior tema natural-lokal",
+      "Konstruksi struktur kayu dan beton kombinasi",
+      "Pemasangan atap genteng tanah liat ekspos",
+      "Counter kasir dan bar custom multiplek HPL kayu serat",
+      "Booth duduk fixed (plywood finishing pelitur natural)",
+      "Landscape dan pencahayaan eksterior"
+    ],
+    "area": 240,
+    "duration": 20,
+    "featured": true,
+    "tags": ["F&B", "wisata", "semi-outdoor", "natural material"]
+  },
+  {
+    "id": "4",
+    "slug": "perumahan-cluster-bandung",
+    "title": "Perumahan Cluster Minimalis Bandung Barat",
+    "client": "PT. Graha Properti Nusantara",
+    "location": "Padalarang, Bandung Barat",
+    "city": "Bandung",
+    "year": 2023,
+    "category": "residensial",
+    "phases": ["perencanaan", "desain", "konstruksi"],
+    "coverImage": "/projects/cluster-bandung/cover.jpg",
+    "images": [
+      { "src": "/projects/cluster-bandung/render-site-plan.jpg", "alt": "Render site plan cluster", "type": "render" },
+      { "src": "/projects/cluster-bandung/realisasi-unit-a.jpg", "alt": "Realisasi unit tipe A", "type": "realisasi" },
+      { "src": "/projects/cluster-bandung/interior-dapur.jpg", "alt": "Interior dapur unit contoh", "type": "realisasi" }
+    ],
+    "beforeAfter": {
+      "before": "/projects/cluster-bandung/render-site-plan.jpg",
+      "after": "/projects/cluster-bandung/realisasi-unit-a.jpg",
+      "beforeLabel": "Desain 3D",
+      "afterLabel": "Hasil Pembangunan"
+    },
+    "description": "Pembangunan 12 unit rumah tapak tipe 36/72 dan tipe 45/90 dalam kawasan cluster tertutup. DED dan RAB disiapkan per tipe unit. Pekerjaan dilaksanakan bertahap dengan pengawasan K3 ketat mengingat volume pekerjaan paralel yang besar.",
+    "scope": [
+      "DED 2 tipe unit (tipe 36 dan tipe 45) beserta fasilitas cluster",
+      "RAB per unit dan total proyek",
+      "Konstruksi 12 unit simultan dengan supervisl lapangan",
+      "Kitchen set standar produksi (multiplek HPL)",
+      "Pagar cluster dan gerbang otomatis",
+      "Jalan lingkungan paving block"
+    ],
+    "area": 1440,
+    "duration": 48,
+    "featured": false,
+    "tags": ["cluster", "perumahan", "tipe 36", "tipe 45", "K3"]
+  },
+  {
+    "id": "5",
+    "slug": "renovasi-ruko-karawang",
+    "title": "Renovasi Ruko 3 Lantai Menjadi Kantor",
+    "client": "PT. Cahaya Logistik Karawang",
+    "location": "Jl. Sudirman, Karawang Barat",
+    "city": "Karawang",
+    "year": 2022,
+    "category": "komersial",
+    "phases": ["perencanaan", "renovasi", "interior"],
+    "coverImage": "/projects/ruko-karawang/cover.jpg",
+    "images": [
+      { "src": "/projects/ruko-karawang/kondisi-awal.jpg", "alt": "Kondisi awal ruko sebelum renovasi", "type": "proses" },
+      { "src": "/projects/ruko-karawang/render-interior-kantor.jpg", "alt": "Render interior kantor", "type": "render" },
+      { "src": "/projects/ruko-karawang/realisasi-ruang-kerja.jpg", "alt": "Ruang kerja setelah renovasi", "type": "realisasi" },
+      { "src": "/projects/ruko-karawang/realisasi-fasad.jpg", "alt": "Fasad ruko baru", "type": "realisasi" }
+    ],
+    "beforeAfter": {
+      "before": "/projects/ruko-karawang/kondisi-awal.jpg",
+      "after": "/projects/ruko-karawang/realisasi-fasad.jpg",
+      "beforeLabel": "Sebelum Renovasi",
+      "afterLabel": "Setelah Renovasi"
+    },
+    "description": "Alih fungsi ruko 3 lantai menjadi kantor operasional logistik. Lantai 1 menjadi area penerimaan dan loket, lantai 2 ruang kerja open plan, lantai 3 ruang meeting dan direktur. Pekerjaan dilakukan dalam kondisi sebagian operasional tetap berjalan.",
+    "scope": [
+      "Survei kondisi eksisting dan penyusunan RAB renovasi",
+      "Perbaikan struktur atap dan plafon bocor",
+      "Fasad baru material GRC dan ACP kombinasi",
+      "Partisi ruang kerja sistem rangka hollow gypsum",
+      "Meja kerja dan lemari arsip custom (multiplek HPL abu-abu)",
+      "Instalasi listrik dan jaringan data baru"
+    ],
+    "area": 360,
+    "duration": 16,
+    "featured": false,
+    "tags": ["renovasi", "alih fungsi", "kantor", "ruko"]
+  },
+  {
+    "id": "6",
+    "slug": "gedung-instansi-malang",
+    "title": "Gedung Layanan Publik Instansi Malang",
+    "client": "Dinas Lingkungan Hidup Kab. Malang",
+    "location": "Kepanjen, Kabupaten Malang",
+    "city": "Malang",
+    "year": 2023,
+    "category": "instansi",
+    "phases": ["perencanaan", "desain", "konstruksi"],
+    "coverImage": "/projects/gedung-malang/cover.jpg",
+    "images": [
+      { "src": "/projects/gedung-malang/render-perspektif.jpg", "alt": "Render perspektif gedung", "type": "render" },
+      { "src": "/projects/gedung-malang/realisasi-tampak-depan.jpg", "alt": "Tampak depan gedung selesai", "type": "realisasi" },
+      { "src": "/projects/gedung-malang/lobby-dalam.jpg", "alt": "Lobby dan area pelayanan publik", "type": "realisasi" }
+    ],
+    "beforeAfter": {
+      "before": "/projects/gedung-malang/render-perspektif.jpg",
+      "after": "/projects/gedung-malang/realisasi-tampak-depan.jpg",
+      "beforeLabel": "Desain 3D",
+      "afterLabel": "Hasil Pembangunan"
+    },
+    "description": "Pembangunan gedung layanan publik 2 lantai dengan kapasitas 200 orang. Desain memperhatikan aksesibilitas disabilitas, ventilasi alami, dan penggunaan material lokal ramah lingkungan sesuai kebijakan green government.",
+    "scope": [
+      "DED lengkap arsitektur, struktur, dan MEE",
+      "RAB dan dokumen lelang",
+      "Konstruksi gedung 2 lantai struktur beton K-300",
+      "Rampa dan fasilitas disabilitas",
+      "Meja layanan counter custom material solid surface",
+      "Sistem penangkal petir dan instalasi CCTV"
+    ],
+    "area": 600,
+    "duration": 40,
+    "featured": false,
+    "tags": ["instansi", "layanan publik", "green building", "aksesibilitas"]
+  }
+]
+

@@ -1,26 +1,181 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── Color Palette ── */
+  --color-slate-dark: #1e2b34;
+  --color-slate-mid: #455662;
+  --color-amber: #e5a124;
+  --color-amber-hover: #cc8b14;
+  --color-ink: #12181d;
+  --color-ink-secondary: #52606d;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f6f7f8;
+  --color-border: #dde3e8;
+
+  /* ── Typography ── */
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* ── Easing ── */
+  --ease-arch: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    color-scheme: light;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-family: var(--font-inter);
+    color: var(--color-ink);
+    background-color: var(--color-surface);
+    line-height: 1.65;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-jakarta);
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+    font-weight: 700;
+  }
+
+  /* Tabular numbers for metrics */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* ── Button Primary ── */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-amber);
+    color: var(--color-slate-dark);
+    font-family: var(--font-jakarta);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    letter-spacing: -0.01em;
+    padding: 0.75rem 1.75rem;
+    border-radius: 2px;
+    transition: background-color 250ms var(--ease-arch),
+      transform 200ms var(--ease-arch);
+    will-change: transform;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-amber-hover);
+    transform: translateY(-1px);
+  }
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  /* ── Button Ghost ── */
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: transparent;
+    color: var(--color-slate-dark);
+    font-family: var(--font-jakarta);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    letter-spacing: -0.01em;
+    padding: 0.75rem 1.75rem;
+    border: 1.5px solid var(--color-slate-dark);
+    border-radius: 2px;
+    transition: background-color 250ms var(--ease-arch),
+      color 250ms var(--ease-arch), transform 200ms var(--ease-arch);
+    will-change: transform;
+  }
+  .btn-ghost:hover {
+    background-color: var(--color-slate-dark);
+    color: white;
+    transform: translateY(-1px);
+  }
+
+  /* ── Section Label ── */
+  .label-section {
+    font-family: var(--font-jakarta);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-amber);
+  }
+
+  /* ── Divider line ── */
+  .rule-amber {
+    width: 2.5rem;
+    height: 2px;
+    background-color: var(--color-amber);
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* ── Category Badge ── */
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    font-family: var(--font-jakarta);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: var(--color-surface-muted);
+    color: var(--color-slate-mid);
+    border: 1px solid var(--color-border);
+  }
+
+  /* ── Container ── */
+  .container-site {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-site {
+      padding-inline: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-site {
+      padding-inline: 3rem;
+    }
+  }
 }
